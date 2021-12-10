@@ -1,0 +1,38 @@
+{
+    "GetFoodBro": {
+        "checkpoints": [
+            {
+                "steps": 499995,
+                "file_path": "results\\ppo\\GetFoodBro\\GetFoodBro-499995.onnx",
+                "reward": 0.8993115318416524,
+                "creation_time": 1639021895.4132602,
+                "auxillary_file_paths": [
+                    "results\\ppo\\GetFoodBro\\GetFoodBro-499995.pt"
+                ]
+            },
+            {
+                "steps": 500010,
+                "file_path": "results\\ppo\\GetFoodBro\\GetFoodBro-500010.onnx",
+                "reward": 0.8969072164948454,
+                "creation_time": 1639021895.4772198,
+                "auxillary_file_paths": [
+                    "results\\ppo\\GetFoodBro\\GetFoodBro-500010.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500010,
+            "file_path": "results\\ppo\\GetFoodBro.onnx",
+            "reward": 0.8969072164948454,
+            "creation_time": 1639021895.4772198,
+            "auxillary_file_paths": [
+                "results\\ppo\\GetFoodBro\\GetFoodBro-500010.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
